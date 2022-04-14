@@ -27,4 +27,12 @@ public class Guest {
     public String getGender() {
         return gender;
     }
+
+    public  void betterDisplayGuest()
+    {
+        System.out.println("Imie "+name);
+        System.out.println("Ulubiony posilek "+preferEat);
+        System.out.println("Numer telefonu "+phoneNumber);
+        System.out.println("Plec "+gender);
+    }
 }
